@@ -13,7 +13,6 @@
 Instructions on how to install and set up the project.
 
 ```bash
-# Example:
 git clone https://github.com/kitopito/wash.git
 cd wash
 make
@@ -24,7 +23,6 @@ make
 How to use the project. Provide examples if possible.
 
 ```bash
-# Example:
 ./wash
 ```
 

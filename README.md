@@ -14,7 +14,7 @@ Instructions on how to install and set up the project.
 
 ```bash
 # Example:
-git clone https://github.com/your-username/wash.git
+git clone https://github.com/kitopito/wash.git
 cd wash
 make
 ```

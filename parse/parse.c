@@ -2,6 +2,7 @@
 #include "parse.h"
 #include "../minishell.h"
 #include <libft.h>
+#include <stdlib.h>
 
 t_cmd	*kantan_parse(t_var *var, char *line)
 {
@@ -22,13 +23,18 @@ t_cmd	*kantan_parse(t_var *var, char *line)
 	{
 		// Allocate a new command node
 		t_cmd *shin_cmd = new_cmd();
-		if (!shin_cmd)
-			return (NULL); // Handle allocation failure
+		if (!shin_cmd) {
+			ft_free_strs(pipe_split);
+			return (NULL);
+		}
 
 		// Split the segment by spaces
 		space_split = ft_split(pipe_split[i], ' ');
-		if (!space_split)
+		if (!space_split) {
+			free(shin_cmd);
+			ft_free_strs(pipe_split);
 			return (NULL);
+		}
 
 		// Assign arguments to the command node
 		shin_cmd->args = space_split;

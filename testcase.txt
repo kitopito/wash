@@ -1,0 +1,9 @@
+
+echo "HOGE">out
+echo "HOGE"2>out
+echo "HOGE" 2>out
+echo "HOGE" '2'>out
+echo "HOGE" "2">out
+echo "HOGE" > "$USER".out
+
+echo hoge \| wc

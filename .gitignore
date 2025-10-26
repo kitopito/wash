@@ -6,4 +6,4 @@ minishell_tester/
 42_minishell_tester/
 .vscode/
 tests/
-readline.supp
+out

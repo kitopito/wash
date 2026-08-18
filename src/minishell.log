@@ -1,0 +1,18 @@
+This is METAFONT, Version 2.71828182 (preloaded base=mf 2025.5.8)  18 AUG 2026 17:35
+**minishell.c minishell.h src
+(minishell.c
+>> #include
+! Isolated expression.
+<to be read again> 
+                   "minishell.h"
+l.2 #include "minishell.h"
+                          
+? 
+! Emergency stop.
+<to be read again> 
+                   "minishell.h"
+l.2 #include "minishell.h"
+                          
+End of file on the terminal!
+
+
